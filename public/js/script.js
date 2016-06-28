@@ -14,7 +14,7 @@ $(document).ready(function() {
             data: JSON.stringify(_generateData()),
         }).complete(function(err) {
             $('#alert-container-info').show();
-            $('#alert-container-info').text(err.responseText)
+            $('#alert-container-info').text(err.responseText);
         });
     });
 
@@ -27,8 +27,7 @@ $(document).ready(function() {
             restaurantId: $('#notification-restaurantId').val(),
             environment: $('#notification-environment').val(),
             payload: $('#notification-payload').val() || ''
-        }
-        console.log(payload)
+        };
         return payload;
     }
 });
