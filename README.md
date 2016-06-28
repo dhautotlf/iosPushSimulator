@@ -10,7 +10,7 @@ Really simple page to send notifications on iOs Devices with their Device ID.
  
  `npm start`
  
- ## Visit 
+## Visit 
  
  Go to the page http://localhost:3001
  
